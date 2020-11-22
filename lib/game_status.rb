@@ -37,3 +37,8 @@ WIN_COMBINATIONS=[
   
     return false
   end
+  
+  def full?(board)
+    board.all? {|index| == "X" || |index| == "O"
+    return true
+end
