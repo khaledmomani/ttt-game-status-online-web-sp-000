@@ -43,6 +43,4 @@ WIN_COMBINATIONS=[
     return true
   end
  board.any? {|index| index == " "}
-  return false
-end
-end
+  return fa
