@@ -42,6 +42,7 @@ WIN_COMBINATIONS=[
     board.all? {|index| index == "X" || index == "O"}
     return true
   end
- if board.any? {|index| index == " "}
+ board.any? {|index| index == " "}
   return false
+end
 end
