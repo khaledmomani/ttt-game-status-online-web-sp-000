@@ -55,4 +55,6 @@ def over?(board)
 end
 
 def winner(board)
+  index = []
+  
   if won?(board) && index == "X"
