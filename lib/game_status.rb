@@ -57,4 +57,4 @@ end
 def winner(board)
   index = []
   index = won?(board)
-  if won?(board) && index == "X"
+  if  && index == "X"
